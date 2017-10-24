@@ -9,33 +9,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const mocha_typescript_1 = require("mocha-typescript");
+const ContextImpl_1 = require("../../src/core/ContextImpl");
 const chai_1 = require("chai");
-const hello_1 = require("../../src/hello");
-let HelloWorldTest = class HelloWorldTest {
+const mocha_typescript_1 = require("mocha-typescript");
+let ContextImplTest = ContextImplTest_1 = class ContextImplTest {
     instanceCreation() {
-        let helloWorld = new hello_1.default('me');
-        chai_1.assert.isOk(helloWorld);
+        const context = new ContextImpl_1.ContextImpl();
+        chai_1.assert.isOk(context);
     }
-    sayHello() {
-        let helloWorld = new hello_1.default('me');
-        let actual = helloWorld.sayHello();
-        chai_1.assert.equal(actual, 'Hello me');
+    testDefaultPort() {
+        const context = new ContextImpl_1.ContextImpl();
+        chai_1.assert.equal(context.getPort(), ContextImplTest_1.DEFAULT_PORT);
     }
 };
+ContextImplTest.DEFAULT_PORT = 20202;
 __decorate([
     mocha_typescript_1.test,
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], HelloWorldTest.prototype, "instanceCreation", null);
+], ContextImplTest.prototype, "instanceCreation", null);
 __decorate([
     mocha_typescript_1.test,
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", void 0)
-], HelloWorldTest.prototype, "sayHello", null);
-HelloWorldTest = __decorate([
+], ContextImplTest.prototype, "testDefaultPort", null);
+ContextImplTest = ContextImplTest_1 = __decorate([
     mocha_typescript_1.suite
-], HelloWorldTest);
-//# sourceMappingURL=Welcome.spec.js.map
+], ContextImplTest);
+var ContextImplTest_1;
+//# sourceMappingURL=ContextImpl.spec.js.map

@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":";;AACA,mCAA4B;AAE5B,MAAM,KAAK,GAAG,IAAI,eAAK,CAAC,MAAM,CAAC,CAAC;AAChC,KAAK,CAAC,QAAQ,EAAE,CAAC","sourcesContent":["// example module file\nimport World from './hello';\n\nconst world = new World('MINE');\nworld.sayHello();"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["index.ts"],"names":[],"mappings":"","sourcesContent":["export * from './core';"]}
