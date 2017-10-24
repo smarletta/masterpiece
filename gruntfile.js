@@ -13,6 +13,9 @@ module.exports = function (grunt) {
             ],
             coverage: [
                 'coverage/**/*'
+            ],
+            tscache: [
+                '.tscache'
             ]
         },
         mocha_istanbul: {
