@@ -15,8 +15,7 @@ will by done by NPM when ready
 ### External modules
 
 * ["src/core/Context"](modules/_src_core_context_.md)
-* ["src/core/ContextImpl"](modules/_src_core_contextimpl_.md)
-* ["test/core/ContextImpl.spec"](modules/_test_core_contextimpl_spec_.md)
+* ["test/core/Context.spec"](modules/_test_core_context_spec_.md)
 
 
 

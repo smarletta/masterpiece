@@ -6,9 +6,9 @@
 
 ## Index
 
-### Interfaces
+### Classes
 
-* [Context](../interfaces/_src_core_context_.context.md)
+* [Context](../classes/_src_core_context_.context.md)
 
 
 

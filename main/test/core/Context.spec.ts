@@ -1,5 +1,4 @@
-import { ContextImpl } from '../../src/core/ContextImpl';
-import { Context } from '../../src/core/Context';
+import { Context } from '../../src/core';
 import { assert } from 'chai';
 import { suite, test } from 'mocha-typescript';
 
@@ -9,14 +8,14 @@ class ContextImplTest {
 
     @test
     instanceCreation() {
-        const context: Context = new ContextImpl();
+        const context: Context = new Context();
 
         assert.isOk(context); 
     }
 
     @test
     testDefaultPort() {
-        const context: Context = new ContextImpl();
+        const context: Context = new Context();
 
         assert.equal(context.getPort(), ContextImplTest.DEFAULT_PORT);
     }

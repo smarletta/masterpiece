@@ -4,12 +4,19 @@
  * @author Sebastiano Marletta
  * @since 2017-10-24
  */
-export interface Context {
+export class Context {
+    private port: number;
+
+    constructor() {
+        this.port = 20202;
+    }
+
     /**
      * Returns the port on which this context should run.
      * 
      * @returns port of the context
      */
-    getPort(): number;
-
+    getPort(): number {
+        return this.port;
+    }
 }
