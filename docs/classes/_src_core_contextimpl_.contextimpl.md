@@ -29,7 +29,7 @@
 ### ⊕ **new ContextImpl**(): [ContextImpl](_src_core_contextimpl_.contextimpl.md)
 
 
-*Defined in [src/core/ContextImpl.ts:4](https://github.com/smarletta/masterpiece/blob/fc546f2/main/src/core/ContextImpl.ts#L4)*
+*Defined in [src/core/ContextImpl.ts:4](https://github.com/smarletta/masterpiece/blob/55a35f5/main/src/core/ContextImpl.ts#L4)*
 
 
 
@@ -52,7 +52,7 @@
 
 *Implementation of [Context](../interfaces/_src_core_context_.context.md).[getPort](../interfaces/_src_core_context_.context.md#getport)*
 
-*Defined in [src/core/ContextImpl.ts:10](https://github.com/smarletta/masterpiece/blob/fc546f2/main/src/core/ContextImpl.ts#L10)*
+*Defined in [src/core/ContextImpl.ts:10](https://github.com/smarletta/masterpiece/blob/55a35f5/main/src/core/ContextImpl.ts#L10)*
 
 
 

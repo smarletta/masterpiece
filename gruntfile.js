@@ -56,7 +56,7 @@ module.exports = function (grunt) {
                     mdFlavour: 'github',
                     mdSourceRepo: 'https://github.com/smarletta/masterpiece'
                 },
-                src: 'src/**/*'
+                src: 'main/src/**/*.ts'
             }
         }
     });
