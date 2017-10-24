@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/smarletta/typescript-node-boilerplate.svg?branch=master)](https://travis-ci.org/smarletta/typescript-node-boilerplate)
+[![Build Status](https://travis-ci.org/smarletta/masterpiece.svg?branch=master)](https://travis-ci.org/smarletta/masterpiece)
 
-[![Coverage Status](https://coveralls.io/repos/github/smarletta/typescript-node-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/smarletta/typescript-node-boilerplate?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/smarletta/masterpiece/badge.svg?branch=master)](https://coveralls.io/github/smarletta/masterpiece?branch=master)
 
 # masterpiece
 Documentation will follow soon.
