@@ -1,6 +1,6 @@
 "use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(require('./hello/World'));
+Object.defineProperty(exports, "__esModule", { value: true });
+const hello_1 = require("./hello");
+const world = new hello_1.default('MINE');
+world.sayHello();
 //# sourceMappingURL=index.js.map

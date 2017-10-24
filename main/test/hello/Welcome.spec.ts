@@ -1,6 +1,6 @@
 import {suite, test} from 'mocha-typescript';
 import { assert } from 'chai';
-import World from '../../src/hello/World';
+import World from '../../src/hello';
 
 @suite
 class HelloWorldTest {

@@ -8,34 +8,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-const mocha_typescript_1 = require('mocha-typescript');
-const chai_1 = require('chai');
-const World_1 = require('../../src/hello/World');
+Object.defineProperty(exports, "__esModule", { value: true });
+const mocha_typescript_1 = require("mocha-typescript");
+const chai_1 = require("chai");
+const hello_1 = require("../../src/hello");
 let HelloWorldTest = class HelloWorldTest {
     instanceCreation() {
-        let helloWorld = new World_1.default('me');
+        let helloWorld = new hello_1.default('me');
         chai_1.assert.isOk(helloWorld);
     }
     sayHello() {
-        let helloWorld = new World_1.default('me');
+        let helloWorld = new hello_1.default('me');
         let actual = helloWorld.sayHello();
         chai_1.assert.equal(actual, 'Hello me');
     }
 };
 __decorate([
-    mocha_typescript_1.test, 
-    __metadata('design:type', Function), 
-    __metadata('design:paramtypes', []), 
-    __metadata('design:returntype', void 0)
+    mocha_typescript_1.test,
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
 ], HelloWorldTest.prototype, "instanceCreation", null);
 __decorate([
-    mocha_typescript_1.test, 
-    __metadata('design:type', Function), 
-    __metadata('design:paramtypes', []), 
-    __metadata('design:returntype', void 0)
+    mocha_typescript_1.test,
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", void 0)
 ], HelloWorldTest.prototype, "sayHello", null);
 HelloWorldTest = __decorate([
-    mocha_typescript_1.suite, 
-    __metadata('design:paramtypes', [])
+    mocha_typescript_1.suite
 ], HelloWorldTest);
 //# sourceMappingURL=Welcome.spec.js.map
