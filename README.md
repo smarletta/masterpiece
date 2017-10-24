@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/smarletta/masterpiece/badge.svg?branch=master)](https://coveralls.io/github/smarletta/masterpiece?branch=master)
 
 # masterpiece
-Documentation will follow soon.
+[https://smarletta.github.io/masterpiece/](API Documentation)
 
 # Installation
 will by done by NPM when ready

@@ -50,7 +50,7 @@ module.exports = function (grunt) {
                 options: {
                     module: 'commonjs',
                     target: 'es5',
-                    out: 'doc/',
+                    out: 'docs/',
                     name: 'MasterPiece'
                 },
                 src: 'src/**/*'
