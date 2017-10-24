@@ -44,6 +44,17 @@ module.exports = function (grunt) {
         },
         coveralls: {
             src: 'coverage/lcov.info'
+        },
+        typedoc: {
+            build: {
+                options: {
+                    module: 'commonjs',
+                    target: 'es5',
+                    out: 'doc/',
+                    name: 'MasterPiece'
+                },
+                src: 'src/**/*'
+            }
         }
     });
 
@@ -52,6 +63,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-mocha-istanbul');
     grunt.loadNpmTasks('remap-istanbul');
     grunt.loadNpmTasks('grunt-coveralls');
+    grunt.loadNpmTasks('grunt-typedoc');
 
     grunt.registerTask('compile', [
         'clean',
