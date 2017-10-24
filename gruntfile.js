@@ -52,7 +52,9 @@ module.exports = function (grunt) {
                     target: 'es5',
                     out: 'docs/',
                     name: 'MasterPiece',
-                    theme : 'markdown'
+                    theme : 'markdown',
+                    mdFlavour: 'github',
+                    mdSourceRepo: 'https://github.com/smarletta/masterpiece'
                 },
                 src: 'src/**/*'
             }

@@ -25,7 +25,7 @@ Base server context provides fundamental setup of the server.
 
 
 
-*Defined in [src/core/Context.ts:13](https://github.com/smarletta/masterpiece/blob/06ea358/main/src/core/Context.ts#L13)*
+*Defined in [src/core/Context.ts:13](https://github.com/smarletta/masterpiece/blob/fc546f2/main/src/core/Context.ts#L13)*
 
 
 
