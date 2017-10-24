@@ -14,7 +14,7 @@ will by done by NPM when ready
 
 ### External modules
 
-* ["src/core/Context"](modules/_src_core_context_.md)
+* ["src/core/Context/context"](modules/_src_core_context_context_.md)
 * ["test/core/Context.spec"](modules/_test_core_context_spec_.md)
 
 

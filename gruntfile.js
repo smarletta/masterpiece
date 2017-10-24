@@ -5,6 +5,9 @@ module.exports = function (grunt) {
                 'main/**/*.js',
                 'main/**/*.js.map',
             ],
+            build: [
+                'build'
+            ],
             doc: [
                 'docs'
             ],
@@ -14,7 +17,7 @@ module.exports = function (grunt) {
         },
         mocha_istanbul: {
             src: {
-                src: 'main/test',
+                src: 'build',
                 options: {
                     mask: '**/*.spec.js'
                 }
@@ -32,14 +35,11 @@ module.exports = function (grunt) {
             }
         },
         ts: {
+            options: {
+                fast: 'always'
+            },
             default: {
-                tsconfig: true,
-                include: [
-                    'main/**/*.ts'
-                ],
-                exclude: [
-                    'node_modules'
-                ]
+                tsconfig: true
             }
         },
         coveralls: {
@@ -69,12 +69,12 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-typedoc');
 
     grunt.registerTask('compile', [
-        'clean',
         'ts',
         'mocha_istanbul'
     ]);
 
     grunt.registerTask('build', [
+        'clean',
         'compile',
         'remapIstanbul'
     ]);

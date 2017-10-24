@@ -24,7 +24,7 @@
 
 
 
-*Defined in test/core/Context.spec.ts:10*
+*Defined in [test/core/Context.spec.ts:10](https://github.com/smarletta/masterpiece/blob/6b66dd4/main/test/core/Context.spec.ts#L10)*
 
 
 
@@ -46,7 +46,7 @@ ___
 
 
 
-*Defined in test/core/Context.spec.ts:17*
+*Defined in [test/core/Context.spec.ts:17](https://github.com/smarletta/masterpiece/blob/6b66dd4/main/test/core/Context.spec.ts#L17)*
 
 
 

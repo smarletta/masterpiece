@@ -12,7 +12,9 @@
         "emitDecoratorMetadata": true,
         "typeRoots": [
             "@types"
-        ]
+        ],
+        "outDir": "build",
+        "rootDir": "main"
     },
     "include": [
         "main/**/*.ts"
