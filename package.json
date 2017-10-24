@@ -1,19 +1,18 @@
 {
-  "name": "typescript-node-boilerplate",
+  "name": "masterpiece",
   "version": "1.0.0",
-  "description": "Boilerplate for creating NodeJS modules written in TypeScript. Includes setup for whole build, testing environment, doc generation and coverage reports",
+  "description": "Smart, compact framework for typescript based NodeJS backends",
   "main": "main/src/index.js",
   "scripts": {
     "test": "grunt travis"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smarletta/typescript-node-boilerplate.git"
+    "url": "https://github.com/smarletta/masterpiece.git"
   },
   "keywords": [
     "nodejs",
     "typescript",
-    "boilerplate",
     "mocha",
     "chai",
     "sinon",
@@ -23,9 +22,9 @@
   "author": "Sebastiano Marletta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smarletta/typescript-node-boilerplate/issues"
+    "url": "https://github.com/smarletta/masterpiece/issues"
   },
-  "homepage": "https://github.com/smarletta/typescript-node-boilerplate#readme",
+  "homepage": "https://github.com/smarletta/masterpiece",
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/node": "^6.0.51",
