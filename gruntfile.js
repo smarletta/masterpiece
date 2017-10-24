@@ -6,7 +6,7 @@ module.exports = function (grunt) {
                 'main/**/*.js.map',
             ],
             doc: [
-                'doc/**/*'
+                'docs'
             ],
             coverage: [
                 'coverage/**/*'
@@ -51,7 +51,8 @@ module.exports = function (grunt) {
                     module: 'commonjs',
                     target: 'es5',
                     out: 'docs/',
-                    name: 'MasterPiece'
+                    name: 'MasterPiece',
+                    theme : 'markdown'
                 },
                 src: 'src/**/*'
             }
