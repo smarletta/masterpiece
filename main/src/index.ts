@@ -1,2 +1,5 @@
 // example module file
-export * from './hello/World';
+import World from './hello';
+
+const world = new World('MINE');
+world.sayHello();
