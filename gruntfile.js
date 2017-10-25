@@ -32,6 +32,7 @@ module.exports = function (grunt) {
                 options: {
                     reports: {
                         'html': 'coverage/html-report',
+                        'lcovonly': 'coverage/lcov_remapped.info',
                         'json': 'coverage/coverage.json'
                     }
                 }
@@ -46,7 +47,7 @@ module.exports = function (grunt) {
             }
         },
         coveralls: {
-            src: 'coverage/lcov.info'
+            src: 'coverage/lcov_remapped.info'
         },
         typedoc: {
             build: {
